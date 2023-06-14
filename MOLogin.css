@@ -1,0 +1,139 @@
+.mo-flex-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mo-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.mo-main-page {
+    /* background-image: url("images/escrow.jpg"); */
+    /* images folder should be in same parent folder */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: skyblue; */
+
+    margin: 0;
+    padding: 0 !important;
+    /* background-color: rgb(126, 157, 185); */
+
+    min-height: 100vh;
+    padding-top: 1%;
+}
+
+.mo-main-page-coat {
+    margin: 0;
+    height: 100vh;
+    /* background-image: linear-gradient(to top, #1c1e1fcc, #131414c5); */
+    background-image: linear-gradient(to top, #1c3834ab, #477a6fbb);
+    width: 100%;
+    /* padding-left: 10%; */
+}
+
+.mo-sub-div {
+    box-sizing: border-box;
+    text-align: center;
+    background-image: linear-gradient(to top, #151616ea, #1b1b1b);
+    width: 40%;
+    min-height: 70vh;
+    padding: 2.5%;
+    box-shadow: 1px 15px 50px whitesmoke;
+
+}
+
+.mo-login-logo,
+.mo-login-head,
+.mo-login-signin {
+    margin-top: 0 !important;
+}
+
+.mo-login-head {
+    letter-spacing: 2px;
+    color: #38ad88;
+}
+
+.mo-login-para {
+    color: #236851;
+    margin-top: 3.5%;
+    font-weight: 400;
+}
+
+.mo-login-logo {
+    color: #8ef2e3;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.mo-signin-button {
+    width: 100% !important;
+    border-color: #6f7070 !important;
+    color: #6f7070 !important;
+}
+
+.mo-signin-button:hover {
+    border-color: #236851 !important;
+    color: #236851 !important;
+    background-color: #23685111 !important;
+
+}
+
+.mo-login-signup-button:hover {
+    color: #38ad88;
+    font-weight: 400 !important;
+}
+
+.mo-login-signup-button {
+    cursor: pointer;
+}
+
+/* .mo-form{
+ 
+   
+} */
+.mo-field-margin {
+    /* line-height: 2; */
+    margin-top: 3% !important;
+}
+
+.mo-login-field>label {
+    color: #6f7070;
+    font-size: 0.8rem !important;
+    text-align: center !important;
+}
+
+.mo-login-field>div>input::before,
+.mo-login-field>div,
+.mo-login-field>div>input::after {
+    color: #6f7070;
+    border-bottom: 1px solid #6f7070 !important;
+}
+
+.mo-login-field>div>div>button>svg {
+    color: #6f7070;
+}
+
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 1px solid #6f7070 !important;
+    left: 0;
+    bottom: 0;
+    content: "";
+    position: absolute;
+    right: 0;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    transition: transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    pointer-events: none;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #6f7070 !important;
+}
