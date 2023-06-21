@@ -1,0 +1,72 @@
+.ms-register-sub-div {
+    box-sizing: border-box;
+    text-align: center;
+    background-image: linear-gradient(to top, #151616ea, #1b1b1b);
+    width: 60%;
+    min-height: 70vh;
+    padding: 2.5%;
+    box-shadow: 1px 15px 50px black;
+}
+
+.ms-register-head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.ms-register-form{
+    width: 90%;
+}
+
+/* .ms-register-form-sub-div{
+    width: 50%;
+    
+} */
+.form-start {
+    text-align: start;
+    width: 60%;
+}
+
+.form-end {
+    text-align: start;
+    width: 40%;
+}
+.ms-field-margin-bottom{
+    margin-bottom: 3% !important;
+}
+.register-radio {
+    width: 95%;
+}
+
+.register-radio>label {
+    color: #6f7070;
+    text-align: start;
+    font-size: 0.9rem !important;
+}
+
+.css-u4tvz2-MuiFormLabel-root.Mui-focused {
+    color: #236851 !important;
+}
+
+.register-radio>div>label>span:nth-child(2) {
+    font-size: 0.8rem !important;
+    color: #6f7070;
+}
+
+.register-radio>div>label>span:nth-child(1) , .register-select>div>svg{
+    /* font-size: 0.8rem !important; */
+    color: #6f7070;
+}
+.register-radio>div>label>span{
+padding: 5px !important;
+}
+.register-select>div::after{
+    border-bottom: 1px solid #6f7070;
+}
+.register-select{
+    margin-top: 5% !important;
+}
+.register-button-margin{
+    margin-top: 4% !important;
+}
